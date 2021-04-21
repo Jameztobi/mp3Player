@@ -1,0 +1,24 @@
+/*Taofeek Shittu & Oluwatobi James*/
+
+/*Stylesheet for BlastBox */
+
+
+/*Root style.*/
+.root{
+    -fx-base: #cb9634;
+}
+
+.button{
+  -fx-background-color:#da3a25;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0.0, 2, 0);
+
+}
+
+
+/*button:hover style. Effect when the cursor is hovered on a button.*/
+.button:hover{
+    -fx-background-color: #df20bf;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, black, 8, 0.0, 2, 0);
+}
